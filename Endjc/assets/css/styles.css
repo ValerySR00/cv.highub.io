@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+}
+body{
+    font-family: 'Mukta', sans-serif;
+}
+/*Circular image*/
+#img__profile img{
+    border-radius: 50%;
+    transform: rotate(-15deg);
+    
+    width: 150px;
+    height: 160px;
+}
+.container__header{
+    display: flex;
+    background-color: #E0BEAF;
+    padding: 15px;
+}
+.container__header div{
+    grid-template-columns: auto;
+    margin-left: 20px;
+}
+#name{
+    font-style: italic;
+    border-block-end: 2px black solid;
+    letter-spacing: 2px;
+}
+   
+ul{
+    list-style: none;
+}
+.container{
+    display: flex;
+}
+
+/*Left colum*/
+aside{
+    background-color: #F7F6E4;
+}
+aside section h3:first-child{
+    border-bottom: 2px solid #E4887E;
+}
